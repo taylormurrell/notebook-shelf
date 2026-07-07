@@ -43,7 +43,7 @@ auth, and RLS policies are all multi-user ready from day one.
 
 - Next.js (App Router) + React + TypeScript
 - Tailwind CSS
-- Supabase (Auth, Postgres, Row Level Security, full-text search)
+- Supabase (Auth, Postgres, Row Level Security)
 
 ## Local setup
 
