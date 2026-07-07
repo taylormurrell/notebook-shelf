@@ -1,7 +1,20 @@
 # Notebook Shelf
 
-A calm, personal digital notebook web app: a forward-facing shelf of notebooks
-with typed notes, links, YouTube timestamp references, sticky tabs, and search.
+Notebook Shelf is a personal project. I don't actually use Google Docs or Word
+for personal notes: they're not aesthetic enough to make me want to go back
+and read them, and the layout never matches how I actually think about
+note-taking. When I picture keeping track of something, I picture a rough,
+physical notebook, not a grid-aligned document.
+
+The problem is that most of what I want to remember comes from digital
+content: YouTube videos, articles, links. A physical notebook can't hold a
+timestamp or a hyperlink. So Notebook Shelf is my attempt at digitizing that
+mental model: open the app to a shelf of notebooks, open one to lined paper
+in a warm, curated font, write notes, and drop in links and YouTube
+timestamps that jump straight back to the moment I wanted to remember. Each
+notebook can be customized (cover color, page color, font) within a curated
+set of options, enough to feel personal without turning into a full design
+tool.
 
 ## About this project
 
