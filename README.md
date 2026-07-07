@@ -1,20 +1,17 @@
 # Notebook Shelf
 
-Notebook Shelf is a personal project. I don't actually use Google Docs or Word
-for personal notes: they're not aesthetic enough to make me want to go back
-and read them, and the layout never matches how I actually think about
-note-taking. When I picture keeping track of something, I picture a rough,
-physical notebook, not a grid-aligned document.
+I don't actually go back and read notes I take in Google Docs or Word.
+They're not aesthetic, and the layout never feels right for how I think
+about notes. When I picture keeping track of something, I picture a
+physical notebook, not a document.
 
-The problem is that most of what I want to remember comes from digital
-content: YouTube videos, articles, links. A physical notebook can't hold a
-timestamp or a hyperlink. So Notebook Shelf is my attempt at digitizing that
-mental model: open the app to a shelf of notebooks, open one to lined paper
-in a warm, curated font, write notes, and drop in links and YouTube
-timestamps that jump straight back to the moment I wanted to remember. Each
-notebook can be customized (cover color, page color, font) within a curated
-set of options, enough to feel personal without turning into a full design
-tool.
+The problem is most of what I want to save is digital: YouTube videos,
+links, articles. A paper notebook can't hold a timestamp or a hyperlink. So
+I built Notebook Shelf: a notebook that's actually digital. Open the app to
+a shelf of notebooks, open one to lined paper in a nice font, write notes,
+and drop in links and YouTube timestamps. Cover color, page color, and font
+are all customizable, just within a curated set of options so it doesn't
+turn into a whole design tool.
 
 ## Screenshots
 
