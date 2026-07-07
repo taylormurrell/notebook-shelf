@@ -41,6 +41,7 @@ Thumbs.db
 # certificates
 *.pem
 
+# AI tooling scaffold notes (kept locally, not needed in the public repo)
 AGENTS.md
 CLAUDE.md
 
