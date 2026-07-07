@@ -159,9 +159,10 @@ Apply each one by pasting it into the Supabase **SQL Editor** and running it
 - **Fail-closed:** the proxy and `/app` both refuse to render, rather than
   silently allowing access, if Supabase env vars are missing in production.
 - **Limits:** note content is capped at 50,000 characters (app and database
-  constraint); passwords require 8+ characters (also set the same minimum in
-  Supabase under Authentication > Policies, since the client-side check
-  alone isn't enforced server-side).
+  constraint); the signup form requires 8+ character passwords. Note that this
+  is a client-side check only; Supabase under Authentication > Policies can
+  enforce the same minimum server-side, worth doing if this app ever supports
+  more than one real user.
 
 A full, project-agnostic security checklist and a set of generalized
 vulnerability patterns (with plain-language explanations) are included in
