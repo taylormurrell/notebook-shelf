@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Warm, calm, notebook-like palette (PRD visual direction). */
+:root {
+  --background: #f7f3ec; /* warm off-white paper */
+  --foreground: #2b2622; /* soft ink */
+  --muted: #8a8178; /* faded pencil */
+  --panel: #fffdf8; /* raised page */
+  --border: #e7ded0; /* soft edge */
+  --accent: #7c6f5b; /* muted clay */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-panel: var(--panel);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-lora);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Opening a notebook: the cover swings open from the spine. */
+@keyframes book-open {
+  from {
+    opacity: 0;
+    transform: perspective(1400px) rotateY(-16deg) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(1400px) rotateY(0deg) scale(1);
+  }
+}
+.book-open {
+  animation: book-open 420ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  transform-origin: left center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-open {
+    animation: none;
+  }
+}

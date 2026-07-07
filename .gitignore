@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# env (never commit real secrets; DO commit .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# vercel
+.vercel
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# testing and coverage
+/coverage
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local database or generated data
+*.sqlite
+*.sqlite3
+*.db
+
+# local personal exports or backups
+exports/
+backups/
+personal-notes/
