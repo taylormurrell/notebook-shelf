@@ -16,6 +16,18 @@ notebook can be customized (cover color, page color, font) within a curated
 set of options, enough to feel personal without turning into a full design
 tool.
 
+## Screenshots
+
+**The shelf:** a forward-facing grid of notebooks with curated cover colors,
+a hover-to-reveal topic, and search.
+
+![The notebook shelf showing four colored notebooks and a search bar](docs/screenshots/shelf.png)
+
+**Inside a notebook:** lined paper in a warm handwriting font, a bookmark
+ribbon, a sticky tab, and a YouTube link that unfurled into a preview card.
+
+![An open notebook with lined paper, a cover frame, a ribbon, a sticky tab, and a YouTube preview card](docs/screenshots/notebook-editor.png)
+
 ## About this project
 
 Notebook Shelf started from a full product requirements doc and was built
