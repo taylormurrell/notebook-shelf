@@ -1,7 +1,7 @@
 # Section 11: Module 5 — Notebook page editor (resolved)
 
-> Replaces the original Section 11. Reflects the simplified model: **no `pages` table** —
-> pages are a visual effect, not stored data. `notes.position_index` is the only source of order.
+> Replaces the original Section 11. Reflects the simplified model: **no `pages` table**.
+> Pages are a visual effect, not stored data. `notes.position_index` is the only source of order.
 
 ## Claude Code prompt for Module 5
 
@@ -10,7 +10,7 @@ Implement Module 5 only.
 **Goal:** Build the notebook page editor for typed notes on college-ruled lined paper.
 
 ### Requirements
-- Create the Supabase `notes` table if not already created (there is **no** `pages` table — pages are a visual effect, not stored data).
+- Create the Supabase `notes` table if not already created (there is **no** `pages` table; pages are a visual effect, not stored data).
 - Add RLS policies for `notes` (owner-only).
 - Add notebook detail route at `/app/notebooks/[notebookId]`.
 - Render the notebook as college-ruled lined paper using the notebook's chosen `page_color` and `font_style`.

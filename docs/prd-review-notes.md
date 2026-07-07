@@ -1,4 +1,4 @@
-# Notebook Shelf — PRD review notes
+# Notebook Shelf: PRD review notes
 
 Review of `Notebook_Shelf_PRD_original.pdf`, with the changes we agreed to.
 
@@ -10,9 +10,9 @@ needed before Module 5, plus a few one-sentence clarifications.
 1. **Dropped the `pages` table.** `notes.position_index` is now the single source of order;
    pages are a render-only visual effect. Removed `start_page_id` and `spans_pages` from
    `notes`. → see `schema.sql`, `module-05-resolved.md`.
-2. **`user_id DEFAULT auth.uid()` + RLS `WITH CHECK`** on every table — client never sends
+2. **`user_id DEFAULT auth.uid()` + RLS `WITH CHECK`** on every table. Client never sends
    or can spoof `user_id`. → `schema.sql`.
-3. **`ON DELETE CASCADE`** on all child FKs — deleting a notebook cleans up notes/links/tabs.
+3. **`ON DELETE CASCADE`** on all child FKs. Deleting a notebook cleans up notes/links/tabs.
    → `schema.sql`.
 4. **Note content stored/rendered as plain text**, never `dangerouslySetInnerHTML`.
    → `module-05-resolved.md`.
@@ -25,7 +25,7 @@ needed before Module 5, plus a few one-sentence clarifications.
 
 ## Minor / inline-as-you-build
 - Add FK indexes (done in schema).
-- `sort_order` default behavior on shelf — pick created_at or manual.
+- `sort_order` default behavior on shelf: pick created_at or manual.
 - Curated fonts via `next/font` (consistent with "no user-uploaded fonts").
 - Remote YouTube thumbnails need Next `images.remotePatterns` (or plain `<img>`); minor
   privacy note (YouTube sees the load).
